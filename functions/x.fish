@@ -27,7 +27,7 @@ function x -a file
                 echo "'$file' cannot be extracted via x()"
         end
     else
-        echo "Usage: extract [-option] [file ...]"
+        echo "Usage: x [-option] [file ...]"
         return 1
     end
 end
